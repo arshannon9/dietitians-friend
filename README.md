@@ -1,8 +1,10 @@
 Copyright (C) 2023 Anthony Ryan Shannon/Ars Artis Softworks
 
-DIETITIAN'S FRIEND - A Python-based web application, built using the Flask framework, intended for use by dietitians in a clinical context, aiding users in providing correct care for patient populations.
+# DIETITIAN'S FRIEND
 
-Demo: https://youtu.be/24hW9lJdbHU
+## A Python-based web application, built using the Flask framework, intended for use by dietitians in a clinical context, aiding users in providing correct care for patient populations.
+
+### Demo: https://youtu.be/24hW9lJdbHU
 
 Features:
 
@@ -77,7 +79,6 @@ Usage Guide:
 
         - If you click the History link in the navbar, you will access a log of all weights entered by the user for all patients under their care.
 
-
 Dependencies:
 
     - bcrypt
@@ -87,7 +88,6 @@ Dependencies:
     - python-dateutil
     - SQLAlchemy
     - WTForms
-
 
 Database Schema:
 
