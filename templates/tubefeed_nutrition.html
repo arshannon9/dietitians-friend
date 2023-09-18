@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Tube Feed Nutrition
+{% endblock %}
+
+{% block main %}
+
+    <h2>Tube Feed Nutrition</h2>
+    <div class="container">
+        <div class="row">
+            <table class="table table-striped table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Formula</th>
+                        <th scope="col">Tube Feed Rate (mL/hr)</th>
+                        <th scope="col">Time (hr)</th>
+                        <th scope="col">kcals</th>
+                        <th scope="col">Protein (g)</th>
+                        <th scope="col">Fluids (mL)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{ formula_name }}</td>
+                        <td>{{ tube_feed_rate }}</td>
+                        <td>{{ time }}</td>
+                        <td>{{ kcals_total }}</td>
+                        <td>{{ protein_total }}</td>
+                        <td>{{ free_water_total }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <a href="/tubefeed" class="btn btn-secondary mt-5">Return to Tube Feed Calculator</a>
+
+{% endblock %}

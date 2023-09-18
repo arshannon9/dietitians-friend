@@ -1,0 +1,7 @@
+bcrypt
+Flask
+Flask-SQLAlchemy
+Flask-Session
+Flask-WTF
+python-dateutil
+WTForms

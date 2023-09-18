@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Tube Feed Calculator
+{% endblock %}
+
+{% block main %}
+    <h2>Tube Feed Calculator</h2>
+    <div class="container">
+        <div class="row">
+            <form method="post">
+                {{ form.csrf_token }}
+                <div class="mb-3">
+                    <div class="mb-2">{{ form.formulas.label }}</div>
+                    {{ form.formulas }}
+                </div>
+                <div class="mb-3">
+                    <div class="mb-2">{{ form.tube_feed_rate.label }}</div>
+                    {{ form.tube_feed_rate }}
+                </div>
+                <div class="mb-3">
+                    <div class="mb-2">{{ form.time.label }}</div>
+                    {{ form.time }}
+                </div>
+                <input class="btn btn-secondary mt-3" type="submit" value="Calculate">
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

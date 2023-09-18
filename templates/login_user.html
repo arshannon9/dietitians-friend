@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    <form action="/login" method="post">
+        {{ form.csrf_token }}
+        <div class="mb-3">
+            <div class="mb-2">{{ form.username.label }}</div>
+            {{ form.username(class="form-control mx-auto w-auto", placeholder="Username", autocomplete="off", autofocus=true) }}
+        </div>
+        <div class="mb-3">
+            <div class="mb-2">{{ form.password.label }}</div>
+            {{ form.password(class="form-control mx-auto w-auto", placeholder="Password", type="password", autocomplete="off") }}
+        </div>
+        <button class="btn btn-secondary mb-2" type="submit">Log In</button>
+    </form>
+    <a class="btn btn-secondary" href="/register">Register</a>
+{% endblock %}

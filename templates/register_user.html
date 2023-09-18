@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+    <form action="/register" method="post">
+        {{ form.csrf_token }}
+        <div class="mb-3">
+            <div class="mb-2">{{ form.username.label }}</div>
+            {{ form.username(class="form-control mx-auto w-auto", placeholder="Username", autocomplete="off") }}
+        </div>
+        <div class="mb-3">
+            <div class="mb-2">{{ form.password.label }}</div>
+            {{ form.password(class="form-control mx-auto w-auto", placeholder="Password") }}
+        </div>
+        <div class="mb-3">
+            <div class="mb-2">{{ form.confirmation.label }}</div>
+            {{ form.confirmation(class="form-control mx-auto w-auto", placeholder="Confirm password") }}
+        </div>
+        <button class="btn btn-secondary" type="submit">Register</button>
+    </form>
+    <div class="text-start">
+        <h4>Password must:</h4>
+        <ul>
+            <li>Be at least 8 characters long</li>
+            <li>Contain at least 1 uppercase letter</li>
+            <li>Contain at least 1 lowercase letter</li>
+            <li>Contain at least 1 digit</li>
+            <li>Contain at least 1 special symbol (! @ # $ % ^ &#x26; * _ - + = : ; . ?)</li>
+        </ul>
+    </div>
+{% endblock %}

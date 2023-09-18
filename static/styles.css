@@ -1,0 +1,53 @@
+/* Copyright (C) 2023 Anthony Ryan Shannon/Ars Artis Softworks */
+
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+body {
+    background-color: #fff;
+    color: #212529;
+    font-family: 'EB Garamond', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+form {
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+h2 {
+    color: #D6544D;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+td, th {
+    vertical-align: middle;
+}
+
+.btn-danger {
+    background-color: #D6544D;
+    color: #000;
+    border-color: #D6544D;
+}
+
+.uniform-width {
+    width: 200px;
+}

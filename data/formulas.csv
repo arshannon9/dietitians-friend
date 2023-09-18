@@ -1,0 +1,12 @@
+id,name,category_id,kcal_per_ml,lactose_int,gluten_free,kosher,features,indications
+1,Jevity 1.2 Cal,1,1.2,yes,yes,yes,concentrated calories | halal,can be sole source | long- or short-term tube feeding
+2,Jevity 1.5 Cal,2,1.5,yes,yes,yes,concentrated calories | high protein | halal,can be sole source | long- or short-term tube feeding | volume restriction
+3,Osmolite 1.2 Cal,3,1.2,yes,yes,yes,concentrated calories | halal,can be sole source | increased calorie needs | long- or short-term tube feeding
+4,Osmolite 1.5 Cal,3,1.5,yes,yes,yes,concentrated calories | halal,can be sole source | increased calorie and protein needs or limited volume tolerance | long- or short-term tube feeding
+5,Glucerna 1.2 Cal,4,1.2,yes,yes,yes,MUFAs | plant-based omega-3 fatty acids | unique carbohydrate blend to help minimize blood glucose response | halal,can be sole source | diabetes or hyperglycemia due to metabolic stress
+6,Glucerna 1.5 Cal,4,1.5,yes,yes,yes,MUFAs | plant-based omega-3 fatty acids | unique carbohydrate blend for enhanced glycemic control | halal,can be sole source | diabetes or hyperglycemia due to metabolic stress
+7,Vital 1.5 Cal,5,1.5,yes,yes,no,Hydrolyzed peptide-based protein system | MCT/canola oil structured lipid | scFOS,can be sole source | calorically dense peptide-based formula for patients experiencing malabsorption maldigestion or impaired GI function and/or symptoms of GI intolerance
+8,Vital High Protein,6,1.0,yes,yes,no,very high protein | hydrolyzed protein | MCT & fish olis | EPA | DHA,can be sole source | peptide-based therapeutic nutrition to help manage inflammation and symptoms of GI intolerance in patients requiring a low-fat high-protein diet
+9,Nepro with CARBSTEADY,7,1.8,yes,yes,yes,high-calorie | high protein | low in phosphorus and potassium | carbohydrate blend designed to help minimize blood glucose response | halal,can be sole source | designed for people on dialysis
+10,TwoCal HN,8,2.0,yes,yes,yes,high-calorie to help patients gain and maintain healthy weight | halal,can be supplemental or sole source of nutrition | low-volume feeding | Med Pass program
+11,Promote With Fiber,9,1.0,yes,yes,yes,high protein | halal,complete balanced high-protein and fiber-fortified formula for patients who need a higher proportion of calories from protein
